@@ -5,7 +5,6 @@
 /system_image       emmc      /dev/block/bootdevice/by-name/system                                  flags=display="System image";backup=1;flashimg=1;
 /data               f2fs      /dev/block/bootdevice/by-name/userdata                                flags=display="Data";
 /cache              ext4      /dev/block/bootdevice/by-name/cache                                   flags=display="Cache";
-/sdcard1            sdfat     /dev/block/mmcblk0p1                                                  flags=display="Sdcard1";
 /efs                ext4      /dev/block/bootdevice/by-name/sec_efs                                 flags=display="Efs";
 /sec_efs            ext4      /dev/block/bootdevice/by-name/sec_efs                                 flags=display="Sec_efs";
 /modem              emmc      /dev/block/bootdevice/by-name/apnhlos                                 flags=display="Modem";
